@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/3.1高级文本处理 字符编码.iml" filepath="$PROJECT_DIR$/.idea/3.1高级文本处理 字符编码.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MOOC15-01/MOOC15-01.iml" filepath="$PROJECT_DIR$/MOOC15-01/MOOC15-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practise/practise.iml" filepath="$PROJECT_DIR$/practise/practise.iml" />
+    </modules>
+  </component>
+</project>
