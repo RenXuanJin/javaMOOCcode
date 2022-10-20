@@ -9,7 +9,7 @@ import java.util.SortedMap;
 public class CharsetTest2 {
    public static void main(String[] args) {
       Charset charset = Charset.defaultCharset();
-      System.out.println(charset);
+      System.out.println(charset.name());
 
       SortedMap<String, Charset> sm = Charset.availableCharsets();
       Set<String> keySet = sm.keySet();
