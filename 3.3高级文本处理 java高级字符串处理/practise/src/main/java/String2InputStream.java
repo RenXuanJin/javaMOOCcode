@@ -5,6 +5,7 @@ import java.io.InputStream;
 import java.nio.charset.Charset;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Scanner;
 
 /**
  * @author ½ðÈÊÐù
@@ -23,7 +24,11 @@ public class String2InputStream {
 
       InputStream inputStream = IOUtils.toInputStream(nameStr, Charsets.toCharset("UTF-8"));
 
-      System.setIn(inputStream);
+      Scanner scanner = new Scanner(inputStream);
+      scanner.useDelimiter(",");
+      while (scanner.hasNext()){
+         System.out.println(scanner.next());
+      }
 
 
    }
